@@ -95,6 +95,7 @@ const borderStyles = StyleSheet.create({
     bottom: 0,
     left: 0,
     right: 0,
+    zIndex: -1,
   },
   invert: {
     transform: [{ rotate: '180deg' }],
