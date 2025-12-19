@@ -14,6 +14,7 @@ const Hourglass = ({ size = 30, style, ...rest }: Props) => {
   return (
     <View
       style={[
+        //@ts-ignore
         {
           width: size,
           height: size,

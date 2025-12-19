@@ -22,3 +22,14 @@
 
 - [Become a backer or sponsor on Patreon](https://www.patreon.com/arturbien)
 - [One-time donation via PayPal](https://www.paypal.me/react95)
+
+
+### Development
+
+#### New Build
+
+```
+# Update version in package.json
+npm run build
+npm publish
+```

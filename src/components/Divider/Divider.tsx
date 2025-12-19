@@ -31,6 +31,7 @@ const Divider = ({
   const isHorizontal = orientation === 'horizontal';
   const isRaised = variant === 'raised';
   const thickness = isRaised ? 5 : 4;
+  //@ts-ignore
   const dynamicStyles: StyleProp<ViewStyle> = {
     width: isHorizontal ? size : thickness,
     height: isHorizontal ? thickness : size,

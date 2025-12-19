@@ -287,8 +287,6 @@ const FABGroup = ({
                         ? SWAG.accessibilityLabel
                         : SWAG.label
                     }
-                    accessibilityTraits='button'
-                    accessibilityComponentType='button'
                     accessibilityRole='button'
                   >
                     <Text style={{ color: labelColor }}>{SWAG.label}</Text>
@@ -318,8 +316,6 @@ const FABGroup = ({
                     ? SWAG.accessibilityLabel
                     : SWAG.label
                 }
-                accessibilityTraits='button'
-                accessibilityComponentType='button'
                 accessibilityRole='button'
                 testID={SWAG.testID}
                 visible={open}
@@ -335,8 +331,6 @@ const FABGroup = ({
           icon={icon}
           color={colorProp}
           accessibilityLabel={accessibilityLabel}
-          accessibilityTraits='button'
-          accessibilityComponentType='button'
           accessibilityRole='button'
           accessibilityState={{ expanded: open }}
           style={[styles.fab, fabStyle]}

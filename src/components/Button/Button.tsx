@@ -99,8 +99,6 @@ const Button = ({
         onShowUnderlay={() => setIsPressed(true)}
         underlayColor='none'
         accessibilityLabel={accessibilityLabel}
-        accessibilityTraits={disabled ? ['button', 'disabled'] : 'button'}
-        accessibilityComponentType='button'
         accessibilityRole='button'
         accessibilityState={{ disabled }}
         accessible={accessible}

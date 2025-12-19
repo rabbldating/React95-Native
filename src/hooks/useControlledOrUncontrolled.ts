@@ -13,6 +13,7 @@ export default ({
   const isControlled = value !== undefined;
   const [controlledValue, setControlledValue] = useState(defaultValue);
 
+  //@ts-ignore
   const handleChangeIfUncontrolled = useCallback(newValue => {
     if (!isControlled) {
       setControlledValue(newValue);

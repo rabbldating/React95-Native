@@ -98,6 +98,7 @@ const NumberInput = ({
         variant={variant}
         disabled={disabled}
         value={valueDerived.toString()}
+        //@ts-ignore
         style={[styles.input, { width: inputWidth || 'auto' }]}
         editable={false}
         // eslint-disable-next-line react/jsx-props-no-spreading

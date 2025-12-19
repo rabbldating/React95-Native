@@ -46,7 +46,7 @@ const AppbarContent = ({
             theme={theme}
             // ref={titleRef}
             style={[styles.title, titleStyle]}
-            accessibilityTraits='header'
+            accessibilityRole='header'
           >
             {title}
           </Text>

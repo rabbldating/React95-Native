@@ -101,7 +101,7 @@ export default function getSelectOptions({
   values,
   onChange,
   theme,
-}: SelectOptionsProps): [Option[], JSX.Element[]] {
+}: SelectOptionsProps): [Option[], React.JSX.Element[]] {
   const selectedOptions = options.filter(option =>
     values.includes(option.value),
   );

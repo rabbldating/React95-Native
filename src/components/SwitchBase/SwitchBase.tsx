@@ -103,12 +103,12 @@ const SwitchBase = ({
     return disabled ? theme.material : theme.canvas;
   };
 
-  const getAccessibilityComponentType = () => {
+  /*const getAccessibilityComponentType = () => {
     if (isRadio) {
       return checked ? 'radiobutton_checked' : 'radiobutton_unchecked';
     }
     return 'button';
-  };
+  };*/
 
   return (
     <TouchableHighlight
@@ -119,8 +119,6 @@ const SwitchBase = ({
       onHideUnderlay={() => setIsPressed(false)}
       onShowUnderlay={() => setIsPressed(true)}
       // TODO: check if those accessibility properties are correct
-      accessibilityTraits={disabled ? ['button', 'disabled'] : 'button'}
-      accessibilityComponentType={getAccessibilityComponentType()}
       accessibilityRole={component}
       accessibilityState={{ disabled, checked }}
       accessibilityLiveRegion='polite'
