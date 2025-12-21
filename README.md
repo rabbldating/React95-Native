@@ -31,5 +31,6 @@
 ```
 # Update version in package.json
 npm run build
+npm login
 npm publish
 ```
