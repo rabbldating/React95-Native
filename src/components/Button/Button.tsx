@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {
+  GestureResponderEvent,
   StyleSheet,
   // TODO: use Pressable instead of TouchableHighlight?
   TouchableHighlight,
@@ -23,7 +24,7 @@ type ButtonProps = React.ComponentPropsWithRef<typeof View> & {
   active?: boolean;
   children: React.ReactNode;
   disabled?: boolean;
-  onPress?: () => void;
+  onPress?: (evt: GestureResponderEvent) => void;
   onLongPress?: () => void;
   primary?: boolean;
   size?: Sizes;

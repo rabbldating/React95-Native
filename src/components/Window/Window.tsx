@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, StyleProp, ViewStyle } from 'react-native';
+import { GestureResponderEvent, StyleSheet, View, StyleProp, ViewStyle } from 'react-native';
 
 import type { Theme } from '../../types';
 import { withTheme } from '../../core/theming';
@@ -10,9 +10,9 @@ type Props = React.ComponentPropsWithRef<typeof View> & {
   // TODO: allow for inserting custom buttons to title bar?
   active?: boolean;
   children?: React.ReactNode;
-  onClose?: () => void;
-  onMaximize?: () => void;
-  onMinimize?: () => void;
+  onClose?: (evt: GestureResponderEvent) => void;
+  onMaximize?: (evt: GestureResponderEvent) => void;
+  onMinimize?: (evt: GestureResponderEvent) => void;
   style?: StyleProp<ViewStyle>;
   theme: Theme;
   title?: string;
