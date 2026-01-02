@@ -17,6 +17,7 @@ type Props = React.ComponentPropsWithRef<typeof NativeTextInput> & {
   defaultValue?: string;
   disabled?: boolean;
   style?: StyleProp<ViewStyle>;
+  inputStyle?: StyleProp<ViewStyle>;
   theme: Theme;
   value?: string;
   variant?: 'default' | 'flat';
@@ -28,6 +29,7 @@ const TextInput = ({
   defaultValue,
   disabled,
   style = {},
+  inputStyle = {},
   theme,
   value,
   variant = 'default',
@@ -56,6 +58,7 @@ const TextInput = ({
           },
           textStyles.regular,
           disabled && hasValue ? textStyles.disabled : textStyles.default,
+          inputStyle,
         ]}
         placeholderTextColor={theme.materialTextDisabled}
         defaultValue={defaultValue}
