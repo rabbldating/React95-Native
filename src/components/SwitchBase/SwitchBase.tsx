@@ -181,6 +181,7 @@ const styles = StyleSheet.create({
   },
   labelWrapper: {
     paddingHorizontal: 4,
+    flexShrink: 1,
   },
   label: {
     fontSize: 16,
