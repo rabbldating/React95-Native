@@ -33,4 +33,7 @@
 npm run build
 npm login
 npm publish
+
+# Then
+npm install react95-native-rabbl@latest
 ```
