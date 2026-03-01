@@ -55,8 +55,8 @@ const CloseIcon = ({
   return (
     <View style={style} {...rest}>
       <Image
-        source={!disabled ? require('../../assets/images/close-icon18x16.png') : require('../../assets/images/close-icon18x16disabled.png')}
-        style={styles.image18x16}
+        source={!disabled ? require('../../assets/images/close-icon16x14.png') : require('../../assets/images/close-icon16x14disabled.png')}
+        style={styles.image16x14}
         //source={!disabled ? require('../../assets/images/close-icon10x11.png') : require('../../assets/images/close-icon10x11disabled.png')}
         //style={styles.image10x11}
       />
@@ -68,6 +68,10 @@ const styles = StyleSheet.create({
   image10x11: {
     width: 10,
     height: 11,
+  },
+  image16x14: {
+    width: 16,
+    height: 14,
   },
   image18x16: {
     width: 18,
