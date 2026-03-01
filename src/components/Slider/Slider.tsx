@@ -37,6 +37,7 @@ type Props = $RemoveChildren<typeof View> & {
   style?: StyleProp<ViewStyle>;
   theme: Theme;
   value?: number;
+  showToolTip?: boolean;
 };
 
 const Slider = ({
@@ -50,6 +51,7 @@ const Slider = ({
   style,
   theme,
   value = 0,
+  showToolTip = true,
   ...rest
 }: Props) => {
   const [isUsed, setIsUsed] = useState(false);
@@ -179,7 +181,7 @@ const Slider = ({
                   }}
                 />
               )}
-              {isUsed && (
+              {showToolTip && isUsed && (
                 <View style={styles.tooltipWrapper}>
                   <Label elevation={4} style={styles.tooltip}>
                     {value}
