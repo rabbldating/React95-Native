@@ -1,9 +1,9 @@
 import React from 'react';
-import { StyleProp, StyleSheet, View, ViewStyle } from 'react-native';
+import { Image, StyleProp, StyleSheet, View, ViewStyle } from 'react-native';
 
 import type { Theme } from '../../types';
 import { withTheme } from '../../core/theming';
-import { ChevronIcon } from '../..';
+//import { ChevronIcon } from '../..';
 
 type Props = {
   disabled?: boolean;
@@ -12,7 +12,7 @@ type Props = {
   theme: Theme;
 };
 
-const CloseIcon = ({
+/*const CloseIcon = ({
   disabled = false,
   segments = 4,
   style,
@@ -42,6 +42,30 @@ const styles = StyleSheet.create({
   wrapper: {
     alignItems: 'center',
     flexDirection: 'row',
+  },
+});*/
+
+const CloseIcon = ({
+  disabled = false,
+  segments = 4,
+  style,
+  theme,
+  ...rest
+}: Props) => {
+  return (
+    <View style={style} {...rest}>
+      <Image
+        source={!disabled ? require('../../assets/images/close-icon10x11.png') : require('../../assets/images/close-icon10x11disabled.png')}
+        style={styles.image}
+      />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  image: {
+    width: 10,
+    height: 11,
   },
 });
 
