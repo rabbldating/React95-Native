@@ -8,6 +8,7 @@ import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { WebBadge } from '@/components/web-badge';
 import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
+import { Button } from 'react95-native-rabbl';
 
 function getDevMenuHint() {
   if (Platform.OS === 'web') {
@@ -56,6 +57,8 @@ export default function HomeScreen() {
         </ThemedView>
 
         {Platform.OS === 'web' && <WebBadge />}
+
+        <Button onPress={() => console.log("Test")}>Test</Button>
       </SafeAreaView>
     </ThemedView>
   );

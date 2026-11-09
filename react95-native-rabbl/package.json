@@ -1,0 +1,92 @@
+{
+  "name": "react95-native-rabbl",
+  "version": "0.1.14",
+  "description": "Refreshed Windows 95 style UI components for your React Native app",
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.me/react95"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/arturbien"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Artur Bień",
+      "email": "artur.bien+react95@gmail.com",
+      "url": "https://www.linkedin.com/in/arturbien/"
+    },
+    {
+      "name": "Luiz Baldi",
+      "email": "baldilp@gmail.com",
+      "url": "https://www.linkedin.com/in/luizbaldi/"
+    }
+  ],
+  "main": "dist/commonjs/index",
+  "module": "dist/module/index",
+  "types": "dist/typescript/src/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "typescript": "tsc --noEmit",
+    "build": "bob build",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "windows95",
+    "components",
+    "vaporwave"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react95-io/react95-native"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/react95-io/react95-native/issues"
+  },
+  "homepage": "https://github.com/react95-io/react95-native#readme",
+  "devDependencies": {
+    "@react-native/typescript-config": "^0.88.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/react-native": "^0.72.8",
+    "husky": "^9.1.7",
+    "pod-install": "^1.2.1",
+    "prettier": "^3.9.10",
+    "react": "^19.3.0",
+    "react-native": "^0.88.1",
+    "react-native-builder-bob": "^0.44.1",
+    "typescript": "~6.0.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "dist",
+    "targets": [
+      "commonjs",
+      "module",
+      [
+        "typescript"
+      ]
+    ]
+  },
+  "dependencies": {
+    "@callstack/react-theme-provider": "^3.0.9"
+  }
+}
