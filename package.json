@@ -1,6 +1,6 @@
 {
   "name": "react95-native-rabbl",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Refreshed Windows 95 style UI components for your React Native app",
   "funding": [
     {
@@ -70,17 +70,16 @@
     "@testing-library/jest-native": "^5.4.3",
     "@testing-library/react-native": "^13.3.3",
     "@types/jest": "^30.0.0",
-    "@types/react": "^19.2.7",
-    "@types/react-dom": "^19.2.3",
-    "@types/react-native": "0.73.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "husky": "^9.1.7",
     "jest": "^30.2.0",
     "pod-install": "^1.0.9",
     "prettier": "^3.7.4",
-    "react": "19.2.3",
-    "react-native": "0.83.1",
-    "react-native-builder-bob": "^0.40.17",
-    "react-test-renderer": "^19.2.3",
+    "react": "^19.3.0",
+    "react-native": "^0.88.1",
+    "react-native-builder-bob": "^0.44.1",
+    "react-test-renderer": "^19.3.0",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
