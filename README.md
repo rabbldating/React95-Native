@@ -26,6 +26,23 @@
 
 ### Development
 
+#### Example project
+
+1. Install in the root:
+   ```
+   npm i
+   ```
+1. Build package:
+   ```
+   cd react95-native-rabbl
+   npm run build
+   ```
+1. Start example:
+   ```
+   cd example
+   npm run web
+   ```
+
 #### New Build
 
 ```
