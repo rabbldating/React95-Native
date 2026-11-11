@@ -1,6 +1,6 @@
 {
   "name": "react95-native-rabbl",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Refreshed Windows 95 style UI components for your React Native app",
   "funding": [
     {
@@ -51,13 +51,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/react95-io/react95-native"
+    "url": "https://github.com/rabbldating/react95-native"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react95-io/react95-native/issues"
+    "url": "https://github.com/rabbldating/react95-native/issues"
   },
-  "homepage": "https://github.com/react95-io/react95-native#readme",
+  "homepage": "https://github.com/rabbldating/react95-native#readme",
   "devDependencies": {
     "@react-native/typescript-config": "^0.88.1",
     "@types/react": "^19.3.0",
