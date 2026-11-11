@@ -4,7 +4,7 @@
 
 * React95 web (non-native; i.e., not using this project, but it's the inspiration)
     * [React95](https://react95.io/)
-    * [Coints95 non-native inspiration](https://coins95.web.app/)
+    * [Coints95](https://coins95.web.app/)
 * [Slack](https://join.slack.com/t/react95/shared_invite/enQtOTA1NzEyNjAyNTc4LWYxZjU3NWRiMWJlMGJiMjhkNzE2MDA3ZmZjZDc1YmY0ODdlZjMwZDA1NWJiYWExYmY1NTJmNmE4OWVjNWFhMTE)
 * [PayPal for the original creator](https://www.paypal.me/react95)
 
